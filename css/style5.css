@@ -1,0 +1,40 @@
+body{
+    background-image: url(../images/learning.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.myBtn{
+    font-size: 20px;
+    font-weight: bold;
+}
+#exam-container{
+    background-color: #fff;
+    width: 400px;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.headerTwo{
+    color: darkred;
+    margin-bottom: 70px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+}
+.link:hover{
+    color: yellow;
+
+}
